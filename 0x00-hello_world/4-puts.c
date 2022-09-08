@@ -1,3 +1,4 @@
+/*funtction without prinf*/
 #include <stdio.h>
 /**
  * the function to use is 'puts'
