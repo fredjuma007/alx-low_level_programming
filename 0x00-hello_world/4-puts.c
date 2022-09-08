@@ -1,9 +1,7 @@
-/*funtction without prinf*/
 #include <stdio.h>
 /**
- * the function to use is 'puts'
- * not allowed to use 'printf'
- * should end with value ZERO
+ * Description: main - Prints out a string to standard output
+ * Return: ZERO if success.
  */
 int main(void)
 {
