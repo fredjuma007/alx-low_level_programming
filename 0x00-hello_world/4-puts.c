@@ -4,7 +4,7 @@
  * not allowed to use 'printf'
  * should end with value ZERO
  */
-int main()
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
