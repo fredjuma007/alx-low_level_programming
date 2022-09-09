@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Description:main -entry point
+ * Description:main - assign a random to the var n each time it is run
  *
  * Return: 0 if success
  *
