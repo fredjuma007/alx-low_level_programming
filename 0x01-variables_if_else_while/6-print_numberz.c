@@ -11,7 +11,7 @@ int main(void)
 {
 	int dec_num = 0;
 
-	for (; dec_num < 10 ; dec_num ++)
+	for(; dec_num < 10 ; dec_num++)
 		putchar( '0' + dec_num);
 	putchar('\n');
 	return (0);
