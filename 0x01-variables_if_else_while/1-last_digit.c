@@ -3,7 +3,10 @@
 #include <stdio.h>
 /**
  * Description: main -entry point
+ *
  * Return: 0 if success
+ *
+ * random_num is the variable for the last digit where num is 'number'
  */
 int main(void)
 {
