@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * Main (check the code)- print alphabet in lowercase
+ * Description: main (check the code)- print alphabet in lowercase
  *
- * Return: 0 
+ * Return: 0 if success
  */
-
 void print_alphabet(void)
 {
 	char letter;
