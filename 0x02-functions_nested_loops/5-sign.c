@@ -5,7 +5,7 @@
  *
  * @n : number to check
  *
- * Return : 0 or 1 or -1 based on the result ( 1 if positive. 0 if Zero and -1 if negative)
+ * Return: 0 or 1 or -1 based on the result
  *
  */
 
