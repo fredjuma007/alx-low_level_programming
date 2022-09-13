@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_abs - return absolute value 
+ *_abs - return absolute value
  * @n: number to check
  *
  * Return: 0 or 1
