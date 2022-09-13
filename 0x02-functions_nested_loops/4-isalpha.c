@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- *Description: _isalpha.c - main function
- *
- * @c: character in the spotligh (characeter to compare)
- *
- * Return: 1 if true, 0 if else
+ * _isalpha - check for lower case letter
+ * @c : character to check
+ * Return:0 or 1
  */
 
 int _isalpha(int c)
