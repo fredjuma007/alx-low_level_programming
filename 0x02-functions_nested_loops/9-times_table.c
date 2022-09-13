@@ -14,7 +14,7 @@ void times_table(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			int prof = j * i;
+			int prod = j * i;
 
 			if (j == 0)
 			{
