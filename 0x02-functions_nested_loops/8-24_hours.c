@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - main thing
+ * jack_bauer - main stuff (the countdown)
  *
  */
 void jack_bauer(void)
