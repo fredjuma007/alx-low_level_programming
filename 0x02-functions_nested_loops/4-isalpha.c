@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha.c - main function
+ *Description: _isalpha.c - main function
  *
  * @c: character in the spotligh (characeter to compare)
  *
