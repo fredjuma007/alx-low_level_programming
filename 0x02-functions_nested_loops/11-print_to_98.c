@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: number to be tested
+ * Return: Always 0
  */
 
 void print_to_98(int n)
