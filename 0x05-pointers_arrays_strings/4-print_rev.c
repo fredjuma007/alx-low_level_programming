@@ -1,20 +1,18 @@
 #include "main.h"
 
+#include "2-strlen.c"
 /**
- * reverse_array - reverses an array
+ * print_rev - reverse a string
  *
- * @a: array to reverse
- * @n: size of array
+ * @s: string to print
  */
-void reverse_array(int *a, int n)
+void print_rev(char *s)
 {
 	int i;
-	int t;
 
-	for (i = 0; i < n / 2; i++)
+	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
-		t = a[i];
-		a[i] = a[n - i - 1];
-		a[n - i - 1] = t;
+		_putchar(*(s + i));
 	}
+	_putchar('\n');
 }
