@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - board(battlefield)
- * @: print chess pieces
+ * @a: print chess pieces
  * Return: return bunch of stuff/chess crap
  * lets play mate
  */
