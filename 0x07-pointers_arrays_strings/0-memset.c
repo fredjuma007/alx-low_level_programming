@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - fills the memory
+ * _memset - sets memory to array
  * @s: array to set
  * @b: value to set it as
  * @n: amount of time
