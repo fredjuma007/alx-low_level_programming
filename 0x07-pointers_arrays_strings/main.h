@@ -11,4 +11,6 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 int _putchar(char c);
 
+/*prototypes of advanced tasks*/
+void set_string(char **s, char *to);
 #endif
