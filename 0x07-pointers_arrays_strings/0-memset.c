@@ -4,7 +4,7 @@
  * _memset - sets memory to array
  * @s: array to set
  * @b: value to set it as
- * @n: amount of time
+ * @n: n amount of time
  * Return: char value of s
  */
 
