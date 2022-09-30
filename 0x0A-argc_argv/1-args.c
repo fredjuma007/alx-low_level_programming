@@ -3,7 +3,7 @@
 
 /**
  * main -main function
- * @argc: argumentc
+ * @arg: argument
  * @argv: vector of arguments
  * Return: 0
  */
@@ -14,3 +14,4 @@ int main(int arg, char *argv[])
 	printf("%d\n", arg - 1);
 	return (0);
 }
+
