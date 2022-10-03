@@ -4,7 +4,7 @@
 
 /**
  * create_array - creates array
- * size: size of array am creating
+ * @size: size of array am creating
  * @c: char to start with
  * Return: char value
  */
@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size <= 0)
 		return (NULL);
-	t = malloc(sizeof(char) * size);
+	t = malloc(sizeof(char) * size); /*the array*/
 	if (t == NULL)
 		return (NULL);
 	for (x = 0; x < size; x++)
