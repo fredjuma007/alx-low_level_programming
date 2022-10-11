@@ -6,44 +6,44 @@
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- * Return: a dog object
+ * Return: a dog object LOL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int i, len1, len2;
+	int d, cujo1, cujo2;
 	dog_t *ndog;
 	char *a, *b;
 
-	len1 = 0;
-	for (i = 0; name[i] != '\0'; i++)
-		len1++;
-	len2 = 0;
-	for (i = 0; owner[i] != '\0'; i++)
-		len2++;
+	cujo1 = 0;
+	for (d = 0; name[d] != '\0'; d++)
+		cujo1++;
+	cujo2 = 0;
+	for (d = 0; owner[d] != '\0'; d++)
+		cujo2++;
 	ndog = malloc(sizeof(dog_t));
 	if (ndog == NULL)
 		return (NULL);
-	a = malloc((len1 + 1) * sizeof(char));
+	a = malloc((cujo1 + 1) * sizeof(char));
 	if (a == NULL)
 	{
 		free(ndog);
 		return (NULL);
 	}
-	for (i = 0; i < len1; i++)
-		a[i] = name[i];
-	a[i] = '\0';
+	for (d = 0; d < cujo1; d++)
+		a[d] = name[d];
+	a[d] = '\0';
 	ndog->name = a;
 	ndog->age = age;
-	b = malloc((len2 + 1) * sizeof(char));
+	b = malloc((cujo2 + 1) * sizeof(char));
 	if (b == NULL)
 	{
 		free(a);
 		free(ndog);
 		return (NULL);
 	}
-	for (i = 0; i < len2; i++)
-		b[i] = owner[i];
-	b[i] = '\0';
+	for (d = 0; d < cujo2; d++)
+		b[d] = owner[d];
+	b[d] = '\0';
 	ndog->owner = b;
 	return (ndog);
 }
