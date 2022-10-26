@@ -23,7 +23,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	{
 		*head = tmp->next;
 		free(tmp);
-		return(1);
+		return (1);
 	}
 
 	/*iterate tmp to idx prior to idx we are to delete*/
@@ -37,8 +37,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	if (x != (index - 1) || tmp->next == NULL)
 		return (-1);
 
-	/*link prio idx befor delete
-	 * very fragile part LOL*/
+	/*link prio idx befor delete*/
+	/*frigile part here*/
 	tmp2 = tmp->next;
 	tmp->next = (tmp->next)->next;
 	free(tmp2);
