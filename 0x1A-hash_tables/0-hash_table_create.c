@@ -5,12 +5,11 @@
  * @size: size
  * Return: pointer to table; NULL if error
  */
-
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht;
 	hash_node_t **array;
-	unsigned long int x = 0;
+	unsigned long int i = 0;
 
 	if (size == 0)
 		return (NULL);
@@ -24,10 +23,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(ht);
 		return (NULL);
 	}
-	while (x < size)
+	while (i < size)
 	{
-		array[x] = NULL;
-		x++;
+		array[i] = NULL;
+		i++;
 	}
 
 	ht->size = size;
@@ -35,3 +34,4 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	return (ht);
 }
+
