@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include "stdlib.h"
+#include "stdio.h"
 /**
  * count_nodes_till_loop - count nodes to know now many unique nodes to print
  * @head: pointer to head pointer of linked list
